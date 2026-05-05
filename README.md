@@ -16,10 +16,7 @@ Where:
 
 **Numerical method:** Conservative finite-volume with upwind flux, central diffusion, and CFL-stable adaptive timestep.
 
-&lt;p align="center"&gt;
-  &lt;a href="#-quick-start"&gt;&lt;img src="https://img.shields.io/badge/⚡_Quick_Start-ff6b6b?style=for-the-badge" alt="Quick Start"&gt;&lt
 ## ⚡ Quick Start
-
 ```matlab
 % Clone and run
 git clone https://github.com/swap60/Foccar_Planck_sol.git
