@@ -13,6 +13,14 @@ Where:
 - `σ = 0.01` — volatility
 - `S` — Bitcoin price
 - `p(S,t)` — probability density
+| Feature                    | Implementation                                    |
+| -------------------------- | ------------------------------------------------- |
+| **Spatial Discretization** | Finite Volume (conservative form)                 |
+| **Drift Flux**             | Upwind scheme with cell-face interpolation        |
+| **Diffusion**              | Central differencing                              |
+| **Stability**              | CFL condition: `dt ≤ 0.2 · min(dt_conv, dt_diff)` |
+| **Artificial Viscosity**   | `ε = 0.01` for shock capturing                    |
+
 
 **Numerical method:** Conservative finite-volume with upwind flux, central diffusion, and CFL-stable adaptive timestep.
 
