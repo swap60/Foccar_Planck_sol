@@ -1,6 +1,3 @@
-
-### **2. Theory Section**
-
 ```markdown
 ## 📖 Theory
 
